@@ -1,7 +1,5 @@
 "use strict"
 
-let cleanFilterd;
-
 function readLocalJSON() {
     const filePath = "homework1-4.json"
 
