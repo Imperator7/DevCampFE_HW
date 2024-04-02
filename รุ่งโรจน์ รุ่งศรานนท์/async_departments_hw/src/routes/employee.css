@@ -1,0 +1,58 @@
+.employee-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.employee-page form {
+    background-color: rgb(202, 228, 250);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+.employee-page form input {
+    width: 18rem;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    border: none;
+}
+
+.employee-page form select {
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    color: rgb(140, 166, 236);
+    padding: 10px 30px 10px 10px;
+    outline: none;
+}
+
+.employee-page form [type=submit]{
+    height: 2.5rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.employee-page ul li{
+    list-style: none;
+    background-color: beige;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.employee-page ul li span {
+    margin: 0px 5px;
+}
