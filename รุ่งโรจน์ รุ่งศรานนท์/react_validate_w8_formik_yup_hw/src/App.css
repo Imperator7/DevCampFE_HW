@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  margin: 20px 0 0 0;
+}
+body {
+  background-color: rgb(160, 124, 237);
+}
+.form-box {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 20%;
+  height: 40%;
+  padding: 30px 50px;
+  border-radius: 5px;
+}
+
+.form {
+  display: grid;
+  padding: 25px 0;
+}
+
+.btn-login {
+  background-color: rgb(2, 8, 59);
+  color: white;
+  height: 45px;
+  border-radius: 3px;
+  margin: 40px 0;
+}
+
+.form .input {
+  display: grid;
+}
+
+.form div {
+  margin: 5px 0;
+}
